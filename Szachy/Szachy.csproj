@@ -46,6 +46,7 @@
     <Compile Include="Figury\Goniec.cs" />
     <Compile Include="Figury\Pionek.cs" />
     <Compile Include="Figury\Pozycja.cs" />
+    <Compile Include="Figury\Szachownica.cs" />
     <Compile Include="Figury\Wieza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
