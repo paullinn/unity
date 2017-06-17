@@ -19,7 +19,7 @@ namespace Szachy
             Szachownica sz = new Szachownica();
             sz['A', 1] = "test";
             Console.WriteLine(sz['A', 1]);
-
+            sz.ileFigur();
 
             Console.ReadKey();
         }
