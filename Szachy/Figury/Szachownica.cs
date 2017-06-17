@@ -26,6 +26,6 @@ namespace Szachy.Figury
                 plansza[x - 65, y] = value;
             }
         }
-
+       
     }
 }

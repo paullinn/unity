@@ -14,10 +14,18 @@ namespace Szachy
             Pozycja p = new Pozycja("B5");
             Pozycja p2 = new Pozycja("D4");
             Figura f = new Pionek(p, Figura.KOLOR_BIALY);
+            f.Pozycja = new Pozycja("E5");
             Console.WriteLine(f.CzyMoznaPrzesunac(p2));
             Szachownica sz = new Szachownica();
             sz['A', 1] = "test";
             Console.WriteLine(sz['A', 1]);
+
+
+            Console.ReadKey();
+        }
+        static void InfoOprzesunieciu()
+        {
+            Console.WriteLine("Figura została przesunięta.");
         }
     }
 }
