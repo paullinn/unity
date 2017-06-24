@@ -13,10 +13,10 @@ namespace Szachy
         {
             Pozycja p = new Pozycja("B5");
             Pozycja p2 = new Pozycja("D4");
-            Figura f = GenFigure.GenerujFigure(TypFigury.Pionek, p, Figura.KOLOR_BIALY);
+            Figura f = GenerujFigure.Generuj(TypFigury.Pionek, p, Figura.KOLOR_BIALY);
             f.Pozycja = new Pozycja("E5");
             Console.WriteLine(f.CzyMoznaPrzesunac(p2));
-            Szachownica sz = Szachownica.Instancja();
+            Szachownica sz = Szachownica.Instancja;
             sz['A', 1] = "test";
             Console.WriteLine(sz['A', 1]);
             sz.ileFigur();
