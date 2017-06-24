@@ -8,11 +8,19 @@ namespace Szachy.Figury
 {
     class Szachownica
     {
+        private static Szachownica szachow = new Szachownica();
         private string[,] plansza;
 
-        public Szachownica()
+        private Szachownica()
         {
             plansza = new string[8, 8];
+        }
+        public static Szachownica Instancja
+        {
+            get
+            {
+                return szachow;
+            }
         }
 
         public string this[char x, int y]
